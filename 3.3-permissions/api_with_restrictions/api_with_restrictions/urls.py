@@ -28,9 +28,3 @@ urlpatterns = [
     path('api/', include(router.urls)),
     path('admin/', admin.site.urls),
 ]
-
-
-urlpatterns = [
-    path('api/', include(router.urls)),
-    path('admin/', admin.site.urls),
-]
